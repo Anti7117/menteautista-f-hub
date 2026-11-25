@@ -7,7 +7,7 @@ const Routing = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="" element={<App />} />
         <Route path="/bio" element={<Bio />} />
       </Routes>
     </BrowserRouter>
